@@ -223,7 +223,7 @@
 
 .login-agrupamento {
     width: 90vw;
-    height: 70vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -324,7 +324,7 @@
     flex-direction: column;
     align-items: center;
     width: 90vw;
-    height: 80vh;
+    height: 90vh;
 }
 
 .Agrupamento-inputs-CriarConta input{
@@ -344,7 +344,7 @@
 
 .checkbox-CriarConta{
     width: 85vw;
-    margin-top: 10px;
+    margin-top: 75px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -387,7 +387,7 @@
 
 .conteudo-relembreSenha-agrupamento{
     width: 90vw;
-    height: 50vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -455,7 +455,7 @@
 
 .conteudo-parabens-agrupamento{
     width: 90vw;
-    height: 35vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     justify-items: center;
