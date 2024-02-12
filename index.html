@@ -5,22 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/app.css">
-    <title>IMC</title>
+    <title>Calculator IMC</title>
+    
 </head>
 
 <body>
-    <div>ITEM 1</div>
-    <div class="flex flex-column">
-        <div>ITEM 2.1</div>
-        <div>ITEM 2.2</div>
-        <div>ITEM 2.3</div>
-    </div>
-    <div>
-        <input class="input" type="text" />
-    </div>
-    <div>ITEM 4</div>
-    <div>ITEM 5</div>
-    <div>ITEM 6</div>
+    
+    <main class="login">
+        
+        <form class="container">
+            <div class="icons">
+                <img src="assets/images/icon-no-bg.ico" alt="Ícone">
+            </div>
+            <h1 class="headline">Faça seu Login</h1>
+            <h2 class="subheadline">Insira suas informações antes </br>calcular seu IMC</h2>
+
+            <div class="form">
+                <label class="label-email" for="Email"></label>
+                <input class="input-email" type="email" id="email" placeholder="Seu e-mail" autocomplete="off">
+
+                <label class="label-password" for="password"></label>
+                <input class="input-password" type="password" id="password" placeholder="Sua senha" autocomplete="off">
+
+                <div class="checkbox">
+                    <input class="input-checkbox" type="checkbox" id="not-robot" name="not-robot" placeholder="Não sou um robô"/>
+                <label class="label-checkbox">Não sou um robô</label>
+                </div>
+
+                <input class="button-primary"   type="submit" value="Fazer Login">
+                <input class="button-secondary" type="submit"  value="Não tenho um acesso">
+
+
+            </div>
+        </form>
+    </main>
 </body>
 
 </html>
