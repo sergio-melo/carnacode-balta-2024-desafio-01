@@ -1,28 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/app.css">
-        <title>Calculator IMC</title>
-        
-    </head>
-<body>
-    <main class="history">
-        <form class="container">
-                <div class="iconsh">
-                    <img src="assets/images/icon-no-bg.ico" alt="Ícone">
-                </div>
-                <h1 class="headlineh">Histórico</h1>
-                <div class="search">
-                    <label class="label-search" for="search"></label>
-                    <input class="input-search" type="search" id="search" placeholder="Pesquisar..." autocomplete="on">
-                </div>
-                <div class="result-history">
-                    
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/app.css" />
+    <title>Histórico</title>
+  </head>
+
+  <body>
+    <div class="Conteudo_Historico">
+      <div class="Logo">
+        <div class="borda-imagem">
+          <img src="assets/images/icon-no-bg.ico" />
+        </div>
+
+        <label id="Label_Historico"> Histórico </label>
+      </div>
+
+      <div class="Pesquisa">
+        <input type="text" placeholder="Pesquisar..." id="Pesquisar" />
+      </div>
+
+      <div class="Historico">
+        <div class="Historico-1">
+          <div class="Quadrado"></div>
+
+          <div class="Div_His">
+            <div class="Peso">
+              <label id="Label-peso"> Peso ideal ✅ </label>
+              <label id="Label-tempo"> 8m atrás </label>
             </div>
-        </form>
-    </main>
-</body>
+
+            <p>
+              Parabéns, você está no seu peso ideal, continue mantendo este
+              estilo!
+            </p>
+            <hr id="linha" />
+          </div>
+    </div>
+
+        <div class="Historico-1">
+          <div class="Quadrado"></div>
+
+          <div class="Div_His">
+            <div class="Peso">
+              <label id="Label-peso"> Sobrepeso ⛔️ </label>
+              <label id="Label-tempo"> 12/10/2023 </label>
+            </div>
+
+            <p>
+              Estamos quase lá! Faça alguns ajustes para ficar no peso ideal!
+            </p>
+
+            <hr id="linha" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
